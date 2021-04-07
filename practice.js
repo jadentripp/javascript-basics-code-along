@@ -6,8 +6,8 @@
 // After the first variable, make a variable named farewell with a data type of string that says 'Goodbye' (with single quotes)
 
 // Code here
-var x = "Hi";
-var farewell = "Goodbye";
+const greeting = "Hi";
+const farewell = 'Goodbye';
 
 //////////////////PROBLEM 2////////////////////
 
@@ -16,16 +16,16 @@ var farewell = "Goodbye";
 // Concatenate hello and userName together and store the result in a variable called salutation
 
 //Code here
-var hello = "Hello";
-var userName = "Jaden Tripp"
-var salutation = hello+userName;
+const hello = "Hello"
+const userName = "Jaden Tripp"
+const salutation = hello+userName;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called seven that has a number data type with the value of 7
 
 //Code here
-var seven= 7;
+const seven= 7;
 
 
 //////////////////PROBLEM 4////////////////////
@@ -34,7 +34,7 @@ var seven= 7;
 // This datatype should be a number
 
 //Code here
-var money= 1999999999;
+const money= 1999999999;
 
 
 //////////////////PROBLEM 5////////////////////
@@ -42,7 +42,7 @@ var money= 1999999999;
 // Make a variable called awesome and give it a value of the boolean data type true
 
 //Code here
-var awesome = true;
+const awesome = true;
 
 
 //////////////////PROBLEM 6////////////////////
@@ -65,7 +65,7 @@ myCar =null;
 // Each item should be an object, and each object should have 2 properties: name (string) and age (number)
 
 //Code here
-var users=[
+const users=[
   {Name:"Jaden", 
   Age:22,},
 
@@ -88,7 +88,7 @@ var users=[
 // Each hobbies property will have a corresponding value which will be an object
 
 //Code here
-var family= {
+const family= {
   Jaden: 'Fishing',
   Stephanie:'Designing',
   Richard: 'Rapping',
@@ -101,7 +101,7 @@ var family= {
 // Each item should be an array with 2 items (numbers) in each array
 
 //Code here
-var gameScores = [[1,2],[3,4],[5,6]];
+const gameScores = [[1,2],[3,4],[5,6]];
 
 
 //////////////////PROBLEM 10////////////////////
@@ -110,7 +110,7 @@ var gameScores = [[1,2],[3,4],[5,6]];
 // Each object should have 3 properties: name (string), gender (string), height (number) in each array
 
 //Code here
-var people = [
+const people = [
   {
 name:"Jaden",
 gender:"Male",
@@ -135,7 +135,7 @@ height:80
 // This object should have 3 properties: name (string), state (string), favoriteCountrySong (string)
 
 //Code here
-var cowboy = {
+const cowboy = {
   name:"Jaden" ,
   state:"Utah" ,
   favoriteCountrySong: "Old Town Road",
@@ -169,7 +169,7 @@ function launch() {
 
 
 //Code here
-var dataTypes = [42, "meaning", true, [1,2,3,4,5],spaceship, launch]
+const dataTypes = [42, "meaning", true, [1,2,3,4,5],spaceship, launch]
 
 
 //////////////////PROBLEM 13////////////////////
@@ -187,8 +187,8 @@ function sum(num1, num2){
 // Create two variables number1 and number2 and assign them number values
 
 // Code here
-var num1=1;
-var num2=2;
+const num1=1;
+const num2=2;
 
 // Next, edit the function called "multiply" so that when it is invoked, it returns the result of multiplying number1 and number2
 
@@ -327,8 +327,8 @@ return x*y
 // The returned value should include a space between the greeting and name parameters
 
 // Code here
-var greeting = "Hello"
-var name = "Ben"
+const greeting = "Hello"
+const name = "Ben"
 function sayHello (greeting,name) {
   return greeting + " " + name + "!"
 }
@@ -343,7 +343,7 @@ function sayHello (greeting,name) {
 
 // Code here
 function makeExercise (exerciseName, duration){
-  var exercise = {
+  const exercise = {
     exerciseName: exerciseName,
     duration:duration,
   }
