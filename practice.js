@@ -344,8 +344,8 @@ function sayHello (greeting,name) {
 // Code here
 function makeExercise (exerciseName, duration){
   var exercise = {
-    exerciseName: ,
-    duration:
+    exerciseName: exerciseName,
+    duration:duration,
   }
   return exercise
 }
